@@ -12,8 +12,8 @@ public class Yahtzee {
 			if (locked[i] == false) {
 				dice[i] = (int)(Math.Random()*6) +1;
 			}
-      println("Dice" + i + ": " + dice[i]);
+    		 	println("Dice" + i + ": " + dice[i]);
 		}
-		
+		println("type the numbers of any dice you would like to lock");
 	}
 }
